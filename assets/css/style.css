@@ -1,0 +1,149 @@
+/* This defaults any borders on the page to have it's initial padding and margin values.  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* This is setting the color of the background for everything in the body element. */
+body {
+  background-color: #d9dcd6;
+}
+/* This is providing the header section to have a padding of 20 pixels, giving it specific font and background colors, and setting a specific font family. */
+header {
+  margin: auto;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #ffd000;
+  color: #ffffff;
+}
+/* This is setting the h1 tag in the header section to a font size of 48 pixels and is allowing the content to display horizontally all in the same line. */
+header h1 {
+  display: inline-block;
+  margin-top: 1%;
+  padding: 1%;
+  font-size: 32px;
+}
+/* This is changing the color to the SEO letters in the h1 tag. */
+.headLogo {
+  float: left;
+  width: 20%;
+  height: 20%;
+  border-style: none;
+  border-radius: 50px;
+}
+/* This is giving the list items in the header with specific padding and margin values, font-family and font-size, and placing the content in the right side of the container.*/
+header section {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+/* This is giving the list items no markers and displays them all on the same line. */
+header ul {
+  list-style-type: none;
+  display: inline;
+}
+/* This is giving each list item a left margin of 25 pixels and displays them all on the same line. */
+header ul li {
+  display: inline;
+  margin-left: 25px;
+}
+/* This is changing the text-links in the header to white and giving them no decorations.*/
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* This is setting all text in p-tags to a font size of 16 pixels*/
+p {
+  font-size: 16px;
+}
+/* This is giving each h2 tag a bottom margin and font size of 20pixels and 36pixels, respectively.*/
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/* This is giving each h3 tag a bottom margin of 10pixels and aligning the text to the center of the container.*/
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* This is class is proving the main image of the website that is underneath the header to have a height of 800pixels,
+ stretching the image to the full size of it's container, giving it a bottom margin of 25pixels and positioning it in the center.*/
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+/* This property is aligning the image to the left of the text with a right margin of 25pixels*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* This property is aligning the image to the right of the text with a right margin of 25pixels*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* This class is making the content take of 75% of the width of it's container, and providing the content
+  with a left margin of 20pixels and displaying the element as an inline-level block container.*/
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* This is providing each section within the class="content" and class="marketingSections" classes with
+  a bottom margin of 20pixels, a padding and height of 50pixels and 300pixels, respectively, a specific font family
+    and specific background and font colors.*/
+.content .marketingSections {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* This property is giving each image with the class .content a max-height of 200pixels and top/bottom
+  margins of 2% and its left and right margins to zero.*/
+.content img {
+  max-height: 200px;
+  margin: 2%, 0;
+}
+/* This class is providing its content to the right of text, a right margin and padding of 20 pixels,
+  making the width and height fill 20% and 100% of its container, respectively; setting a specific background
+  font color and font family. */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* This property is giving each image within the class .benefits a top/bottom margin of 10pixels, a right/left margin
+  set to adjust to the size of the web browser, and giving the images a max-width of 150pixels.*/
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* This property is giving each paragraph within the class .benefits of a bottom margin of 10%.*/
+.benefits p {
+  margin-bottom: 10%;
+}
+/* This property is giving the footer a padding of 30pixels, making the content precede one another vertically, 
+  and setting the text to the center and using a specific font family.*/
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}

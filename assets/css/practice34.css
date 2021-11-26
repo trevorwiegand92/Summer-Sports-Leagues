@@ -1,0 +1,82 @@
+/* This defaults any borders on the page to have it's initial padding and margin values.  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #c0c0c0;
+}
+
+/* this is setting specifications for the width, height, line-height, and positioning of the header section
+    It is also applying a background color and font color.*/
+header {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  position: sticky;
+  color: #ffffff;
+  background-color: rgb(0, 192, 192);
+}
+
+/* This is setting the font size of the heading within the header to a size of 48pixels, applying
+    a padding and a top margin to 15pixels and -10pixels, respectively, and displaying it 
+    inline with the rest of the content within the header container. */
+header h1 {
+  display: inline-block;
+  font-size: 43px;
+  padding-top: 15px;
+  margin-top: -10px;
+}
+
+/* this is setting the links in the header to the right side of the header container,
+    applying a padding, a top margin, and a right margin to 15pixels and -10pixels, 
+    and 20pixels, respectively; it is also making the font bold, a size of 20pixels, 
+    and an off-white color.*/
+header nav {
+  padding-top: 15px;
+  margin-top: -10px;
+  margin-right: 20px;
+  float: right;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/* This is displaying the list of links inline with one another and applying no text decorations. */
+header ul {
+  list-style-type: none;
+  display: inline;
+}
+
+/* Displaying the list items inline with one another and applying a left margin of 25pixels to each of them. */
+header ul li {
+  display: inline;
+  margin-left: 25px;
+}
+
+/* This is applying a specific color to the links within the header and applying no text decoration. */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* This is changing the color os the links in the header when the cursor hovers over them.*/
+a:hover {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+}
+
+/* This class is floating the image in the header to the left of the text, setting a max width and height, 
+    rounding the corners of the image and applying no border, and setting the all-around margins to 1%. */
+.headLogo {
+  float: left;
+  margin: 1.5%;
+  width: auto;
+  height: auto;
+  max-width: 75%;
+  max-height: 75%;
+  border-style: none;
+  border-radius: 50px;
+}
